@@ -3,7 +3,7 @@ export interface TypographyThemeInterface {
   fontSize?: number;
   lineHeight?: number;
   letterSpacing?: number;
-  display?: string;
+  display?: 'block' | 'inline-block';
   color?: string;
 }
 
