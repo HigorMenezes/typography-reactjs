@@ -5,29 +5,43 @@ import TypographyComponent from './components/TypographyComponent';
 const App: React.FC = () => {
   return (
     <>
-      <TypographyComponent theme={{ color: '#777' }} variant='h1'>
-        Hello1
+      <TypographyComponent className='margin' variant='h1'>
+        h1. Heading
       </TypographyComponent>
-      <TypographyComponent theme={{ fontWeight: 900 }} variant='h2'>
-        Hello2
+      <TypographyComponent className='margin' variant='h2'>
+        h2. Heading
       </TypographyComponent>
-      <TypographyComponent theme={{ letterSpacing: 2 }} variant='h3'>
-        Hello2
+      <TypographyComponent className='margin' variant='h3'>
+        h3. Heading
       </TypographyComponent>
-      <TypographyComponent theme={{ lineHeight: 2 }} variant='h4'>
-        Hello2
+      <TypographyComponent className='margin' variant='h4'>
+        h4. Heading
       </TypographyComponent>
-      <TypographyComponent theme={{ fontSize: 4 }} variant='h5'>
-        Hello2
+      <TypographyComponent className='margin' variant='h5'>
+        h5. Heading
       </TypographyComponent>
-      <TypographyComponent variant='h6'>Hello2</TypographyComponent>
-      <TypographyComponent variant='subtitle1'>Hello2</TypographyComponent>
-      <TypographyComponent variant='subtitle2'>Hello2</TypographyComponent>
-      <TypographyComponent theme={{ display: 'inline-block' }} variant='body1'>
-        Hello2
+      <TypographyComponent className='margin' variant='h6'>
+        h6. Heading
       </TypographyComponent>
-      <TypographyComponent theme={{ display: 'inline-block' }} variant='body2'>
-        Hello2
+      <TypographyComponent className='margin' variant='subtitle1'>
+        subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quos blanditiis tenetur
+      </TypographyComponent>
+      <TypographyComponent className='margin' variant='subtitle2'>
+        subtitle2. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quos blanditiis tenetur
+      </TypographyComponent>
+      <TypographyComponent className='margin' variant='body1'>
+        body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+        blanditiis tenetur unde suscipit, quam beatae rerum inventore
+        consectetur, neque doloribus, cupiditate numquam dignissimos laborum
+        fugiat deleniti? Eum quasi quidem quibusdam.
+      </TypographyComponent>
+      <TypographyComponent className='margin' variant='body2'>
+        body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+        blanditiis tenetur unde suscipit, quam beatae rerum inventore
+        consectetur, neque doloribus, cupiditate numquam dignissimos laborum
+        fugiat deleniti? Eum quasi quidem quibusdam.
       </TypographyComponent>
     </>
   );

@@ -8,6 +8,7 @@ export interface TypographyThemeInterface {
 }
 
 export interface TypographyInterface {
+  className?: string;
   children: string;
   theme?: TypographyThemeInterface;
   variant?:

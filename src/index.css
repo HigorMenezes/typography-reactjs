@@ -9,7 +9,7 @@
 }
 
 html {
-  font-size: 150%;
+  font-size: 100%;
 }
 
 body {
@@ -26,4 +26,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.margin {
+  margin: 2rem 10rem;
 }
